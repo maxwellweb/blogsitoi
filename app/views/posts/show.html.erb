@@ -1,0 +1,18 @@
+<%= render :partial => @post %>
+<p>
+<%= link_to 'Editar', edit_post_path(@post) %> |
+<%= link_to 'Todos', posts_path %> |
+<%= link_to 'Destruir', @post, :method => :delete, :confirm => "Esta usted segudo de borrar?" %>
+</p>
+
+<h2>Comentarios</h2>
+<div id="comments">
+	<%= render :partial => @post.comments %>
+</div>
+<% remote_form_for [@post, Comment.new] do |f| %>
+	<p>
+	   <%= f.label :body, "Nuevo comentario" %><br />
+	   <%= f.text_area :body %>
+	</p>
+	<p><%= f.submit "Enviar Comentario" %> </p>
+<% end %>

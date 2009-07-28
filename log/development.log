@@ -1,0 +1,1131 @@
+/!\ FAILSAFE /!\  Sat Jul 25 01:12:22 -0400 2009
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Jul 25 01:53:18 -0400 2009
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-07-27 01:02:20) [GET]
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 107ms (View: 17, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (6.6ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.6ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20090727050539)
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090727050539')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("posts")[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 01:08:26) [GET]
+  [4;36;1mPost Load (1.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 107ms (View: 80, DB: 2) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-07-27 01:08:32) [GET]
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 76ms (View: 40, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-07-27 01:09:21) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "post"=>{"body"=>"fui creado por scaffold y alfin me salen sin fallas jaja suerte para todos.", "title"=>"hola soy una lina en rails"}}
+  [4;35;1mPost Create (14.2ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-27 05:09:21', 'hola soy una lina en rails', 'fui creado por scaffold y alfin me salen sin fallas jaja suerte para todos.', '2009-07-27 05:09:21')[0m
+Redirected to http://localhost:3000/posts/1
+Completed in 157ms (DB: 14) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 01:09:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 377ms (View: 312, DB: 1) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 01:09:26) [GET]
+  [4;35;1mPost Load (4.2ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 63ms (View: 17, DB: 4) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-07-27 01:09:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/edit
+Completed in 77ms (View: 45, DB: 1) | 200 OK [http://localhost/posts/1/edit]
+
+
+Processing PostsController#update (for 127.0.0.1 at 2009-07-27 01:10:10) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "post"=>{"body"=>"fui creado por scaffold y alfin me salen sin fallas jaja suerte para todos.\r\n\r\ny tb fui editado", "title"=>"hola soy una lina en rails"}, "id"=>"1"}
+  [4;35;1mPost Load (1.8ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mPost Update (1.1ms)[0m   [0;1mUPDATE "posts" SET "body" = 'fui creado por scaffold y alfin me salen sin fallas jaja suerte para todos.
+
+y tb fui editado', "updated_at" = '2009-07-27 05:10:10' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/posts/1
+Completed in 78ms (DB: 3) | 302 Found [http://localhost/posts/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 01:10:10) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (1.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 85ms (View: 29, DB: 1) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 01:10:14) [GET]
+  [4;36;1mPost Load (1.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 44ms (View: 26, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-07-27 01:13:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/edit
+Completed in 66ms (View: 12, DB: 1) | 200 OK [http://localhost/posts/1/edit]
+
+
+Processing PostsController#update (for 127.0.0.1 at 2009-07-27 01:13:30) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "post"=>{"body"=>"fui creado por scaffold y alfin me salen sin fallas jaja suerte para todos.\r\n\r\ny tb fui editado", "title"=>""}, "id"=>"1"}
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/edit
+Completed in 78ms (View: 11, DB: 1) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#update (for 127.0.0.1 at 2009-07-27 01:13:48) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "post"=>{"body"=>"fui creado por scaffold y alfin me salen sin fallas jaja suerte para todos.\r\n\r\ny tb fui editado", "title"=>"hola soy una lina en rails"}, "id"=>"1"}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Redirected to http://localhost:3000/posts/1
+Completed in 431ms (DB: 1) | 302 Found [http://localhost/posts/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 01:13:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 94ms (View: 28, DB: 1) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 01:13:52) [GET]
+  [4;35;1mPost Load (2.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 94ms (View: 64, DB: 2) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 01:25:43) [GET]
+  [4;36;1mPost Load (1.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 70ms (View: 28, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 01:25:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+
+ActionView::TemplateError (undefined method `boy' for #<Post:0xb74b6344>) on line #3 of app/views/posts/show.html.erb:
+1: <% div_for @post do %>
+2: 	<h2><%= link_to_unless_current h(@post.title), @post %></h2>
+3: 	<%= simple_format h(@post.boy) %>
+4: <% end %>
+5: <p>
+6: <%= link_to 'Editar', edit_post_path(@post) %> |
+
+    app/views/posts/show.html.erb:3
+    app/views/posts/show.html.erb:1
+    app/controllers/posts_controller.rb:18:in `show'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (411.3ms)
+Rendered rescues/_request_and_response (5.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 01:26:12) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 83ms (View: 32, DB: 1) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 01:26:49) [GET]
+  [4;35;1mPost Load (1.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 45ms (View: 16, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 01:47:50) [GET]
+  [4;36;1mPost Load (1.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/posts/_post.html.erb:
+1: <% div_for @post do %>
+2: 	<h2><%= link_to_unless_current h(@post.title), @post %></h2>
+3: 	<%= simple_format h(@post.body) %>
+4: <% end %>
+
+    app/views/posts/_post.html.erb:1
+    app/views/posts/index.html.erb:3
+    app/controllers/posts_controller.rb:7:in `index'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (428.8ms)
+Rendered rescues/_request_and_response (3.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 01:49:27) [GET]
+  [4;35;1mPost Load (2.1ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Rendered posts/_post (24.2ms)
+Completed in 85ms (View: 53, DB: 2) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 01:49:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (18.0ms)
+Completed in 134ms (View: 92, DB: 1) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-07-27 01:50:02) [GET]
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 65ms (View: 22, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 01:50:07) [GET]
+  [4;35;1mPost Load (1.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Rendered posts/_post (8.7ms)
+Completed in 52ms (View: 29, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index to xml (for 127.0.0.1 at 2009-07-27 01:59:10) [GET]
+  [4;36;1mPost Load (2.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Completed in 261ms (View: 241, DB: 3) | 200 OK [http://localhost/posts.xml]
+
+
+Processing PostsController#index to json (for 127.0.0.1 at 2009-07-27 02:02:03) [GET]
+  [4;35;1mPost Load (1.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Completed in 29ms (View: 9, DB: 1) | 200 OK [http://localhost/posts.json]
+
+
+Processing PostsController#index to atom (for 127.0.0.1 at 2009-07-27 02:12:19) [GET]
+  [4;36;1mPost Load (4.2ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Completed in 21ms (View: 2, DB: 4) | 406 Not Acceptable [http://localhost/posts.atom]
+
+
+Processing PostsController#index to atom (for 127.0.0.1 at 2009-07-27 02:13:26) [GET]
+  [4;35;1mPost Load (4.8ms)[0m   [0mSELECT * FROM "posts" [0m
+
+ActionView::MissingTemplate (Missing template posts/index.erb in view path app/views):
+  app/controllers/posts_controller.rb:7:in `index'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index to atom (for 127.0.0.1 at 2009-07-27 02:14:18) [GET]
+  [4;36;1mPost Load (1.6ms)[0m   [0;1mSELECT * FROM "posts" [0m
+
+ActionView::MissingTemplate (Missing template posts/index.erb in view path app/views):
+  app/controllers/posts_controller.rb:7:in `index'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 02:14:45) [GET]
+  [4;35;1mPost Load (1.7ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Rendered posts/_post (21.3ms)
+Completed in 57ms (View: 30, DB: 2) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index to xml (for 127.0.0.1 at 2009-07-27 02:14:53) [GET]
+  [4;36;1mPost Load (1.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Completed in 63ms (View: 16, DB: 1) | 200 OK [http://localhost/posts.xml]
+
+
+Processing PostsController#index to json (for 127.0.0.1 at 2009-07-27 02:15:03) [GET]
+  [4;35;1mPost Load (1.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Completed in 88ms (View: 36, DB: 1) | 200 OK [http://localhost/posts.json]
+
+
+Processing PostsController#index to atom (for 127.0.0.1 at 2009-07-27 02:15:14) [GET]
+  [4;36;1mPost Load (1.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+
+ActionView::MissingTemplate (Missing template posts/index.erb in view path app/views):
+  app/controllers/posts_controller.rb:7:in `index'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 02:15:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (1.1ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (5.9ms)
+Completed in 62ms (View: 24, DB: 1) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 02:15:54) [GET]
+  [4;36;1mPost Load (1.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Rendered posts/_post (8.3ms)
+Completed in 56ms (View: 25, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 02:22:29) [GET]
+  [4;35;1mPost Load (2.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Rendered posts/_post (9.8ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 88ms (View: 49, DB: 2) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index to atom (for 127.0.0.1 at 2009-07-27 02:22:31) [GET]
+  [4;36;1mPost Load (1.2ms)[0m   [0;1mSELECT * FROM "posts" [0m
+
+ActionView::MissingTemplate (Missing template posts/index.erb in view path app/views):
+  app/controllers/posts_controller.rb:7:in `index'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index to atom (for 127.0.0.1 at 2009-07-27 02:22:32) [GET]
+  [4;35;1mPost Load (1.2ms)[0m   [0mSELECT * FROM "posts" [0m
+
+ActionView::MissingTemplate (Missing template posts/index.erb in view path app/views):
+  app/controllers/posts_controller.rb:7:in `index'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-07-27 02:32:29) [GET]
+  Parameters: {"id"=>"1"}
+
+SyntaxError (/home/max/ror/blog/app/controllers/posts_controller.rb:94: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (376.1ms)
+Rendered rescues/_request_and_response (3.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 02:32:45) [GET]
+
+SyntaxError (/home/max/ror/blog/app/controllers/posts_controller.rb:94: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (166.9ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 02:33:15) [GET]
+
+SyntaxError (/home/max/ror/blog/app/controllers/posts_controller.rb:94: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (126.3ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 02:33:41) [GET]
+  [4;36;1mPost Load (1.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Rendered posts/_post (8.9ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 58ms (View: 27, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 02:33:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (1.1ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (16.3ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 68ms (View: 25, DB: 1) | 200 OK [http://localhost/posts/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 02:34:56) [GET]
+
+SyntaxError (/home/max/ror/blog/app/controllers/posts_controller.rb:94: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (386.2ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 02:35:25) [GET]
+
+SyntaxError (/home/max/ror/blog/app/controllers/posts_controller.rb:94: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (135.4ms)
+Rendered rescues/_request_and_response (8.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 02:35:31) [GET]
+
+SyntaxError (/home/max/ror/blog/app/controllers/posts_controller.rb:94: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (328.1ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 02:35:56) [GET]
+
+SyntaxError (/home/max/ror/blog/app/controllers/posts_controller.rb:94: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (134.5ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 02:45:46) [GET]
+
+SyntaxError (/home/max/ror/blog/app/controllers/posts_controller.rb:92: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (128.4ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 02:46:15) [GET]
+  [4;36;1mPost Load (1.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Rendered posts/_post (30.1ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 356ms (View: 311, DB: 2) | 200 OK [http://localhost/posts]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 02:46:27) [GET]
+
+SyntaxError (/home/max/ror/blog/app/controllers/posts_controller.rb:92: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (150.3ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 02:47:21) [GET]
+  [4;35;1mPost Load (1.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Rendered posts/_post (9.2ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 78ms (View: 27, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (1.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20090727050539)
+Migrating to CreateComments (20090727064905)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "post_id" integer, "body" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090727064905')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("posts")[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 03:06:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (11.8ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (7.1ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 434ms (View: 350, DB: 12) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-07-27 03:06:57) [GET]
+  Parameters: {"id"=>"1"}
+
+NoMethodError (undefined method `authenticate' for #<PostsController:0xb597b2dc>):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2009-07-27 03:13:59) [POST]
+  Parameters: {"commit"=>"Enviar Comentario", "post_id"=>"1", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "comment"=>{"body"=>"a ver si suerge!"}}
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Redirected to http://localhost:3000/posts/1
+Completed in 117ms (DB: 1) | 302 Found [http://localhost/posts/1/comments]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 03:13:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (5.7ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (16.8ms)
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 184ms (View: 111, DB: 6) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 03:16:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (5.4ms)
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 121ms (View: 60, DB: 2) | 200 OK [http://localhost/posts/1]
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2009-07-27 03:17:05) [POST]
+  Parameters: {"commit"=>"Enviar Comentario", "post_id"=>"1", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "comment"=>{"body"=>"a ver si pasa ahora algo"}}
+  [4;35;1mPost Load (3.8ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Create (1.7ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-27 07:17:05', 'a ver si pasa ahora algo', 1, '2009-07-27 07:17:05')[0m
+Redirected to http://localhost:3000/posts/1
+
+NameError (undefined local variable or method `debuger' for #<CommentsController:0xb57f7fa0>):
+  app/controllers/comments_controller.rb:6:in `create'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (378.5ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2009-07-27 03:17:23) [POST]
+  Parameters: {"commit"=>"Enviar Comentario", "post_id"=>"1", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "comment"=>{"body"=>"a ver si pasa ahora algo"}}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Create (0.7ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-27 07:17:23', 'a ver si pasa ahora algo', 1, '2009-07-27 07:17:23')[0m
+Redirected to http://localhost:3000/posts/1
+Completed in 95ms (DB: 1) | 302 Found [http://localhost/posts/1/comments]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 03:17:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (11.3ms)
+  [4;36;1mComment Load (9.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+
+ActionView::TemplateError (Missing template comments/_comment.erb in view path app/views) on line #10 of app/views/posts/show.html.erb:
+7: 
+8: <h2>Comentarios</h2>
+9: <div id="comments">
+10: 	<%= render :partial => @post.comments %>
+11: </div>
+12: <% form_for [@post, Comment.new] do |f| %>
+13: 	<p>
+
+    app/views/posts/show.html.erb:10
+    app/controllers/posts_controller.rb:20:in `show'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (224.1ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 03:20:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (17.6ms)
+  [4;36;1mComment Load (1.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+Rendered comments/_comment (175.1ms)
+Rendered comments/_comment (1.6ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 557ms (View: 517, DB: 2) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 03:36:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (17.2ms)
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+Rendered comments/_comment (2.1ms)
+Rendered comments/_comment (5.9ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 162ms (View: 97, DB: 2) | 200 OK [http://localhost/posts/1]
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2009-07-27 03:36:51) [POST]
+  Parameters: {"commit"=>"Enviar Comentario", "post_id"=>"1", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "comment"=>{"body"=>"a ver si sale el ajax =O"}}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Create (4.6ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-27 07:36:51', 'a ver si sale el ajax =O', 1, '2009-07-27 07:36:51')[0m
+Redirected to http://localhost:3000/posts/1
+Completed in 119ms (DB: 5) | 302 Found [http://localhost/posts/1/comments]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 03:36:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (1.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (5.2ms)
+  [4;36;1mComment Load (12.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+Rendered comments/_comment (11.1ms)
+Rendered comments/_comment (1.4ms)
+Rendered comments/_comment (1.5ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 121ms (View: 77, DB: 13) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 03:38:33) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (8.4ms)
+  [4;36;1mComment Load (12.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+Rendered comments/_comment (10.7ms)
+Rendered comments/_comment (1.6ms)
+Rendered comments/_comment (9.7ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 134ms (View: 85, DB: 14) | 200 OK [http://localhost/posts/1]
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2009-07-27 03:38:53) [POST]
+  Parameters: {"commit"=>"Enviar Comentario", "post_id"=>"1", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "comment"=>{"body"=>"ahora sale el ajax =OO\n"}}
+
+SyntaxError (/home/max/ror/blog/app/controllers/comments_controller.rb:10: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (89.8ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2009-07-27 03:38:59) [POST]
+  Parameters: {"commit"=>"Enviar Comentario", "post_id"=>"1", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "comment"=>{"body"=>"ahora sale el ajax =OO\n"}}
+
+SyntaxError (/home/max/ror/blog/app/controllers/comments_controller.rb:10: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (86.8ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2009-07-27 03:39:00) [POST]
+  Parameters: {"commit"=>"Enviar Comentario", "post_id"=>"1", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "comment"=>{"body"=>"ahora sale el ajax =OO\n"}}
+
+SyntaxError (/home/max/ror/blog/app/controllers/comments_controller.rb:10: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (100.0ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2009-07-27 03:39:00) [POST]
+  Parameters: {"commit"=>"Enviar Comentario", "post_id"=>"1", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "comment"=>{"body"=>"ahora sale el ajax =OO\n"}}
+
+SyntaxError (/home/max/ror/blog/app/controllers/comments_controller.rb:10: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (320.9ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2009-07-27 03:39:01) [POST]
+  Parameters: {"commit"=>"Enviar Comentario", "post_id"=>"1", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "comment"=>{"body"=>"ahora sale el ajax =OO\n"}}
+
+SyntaxError (/home/max/ror/blog/app/controllers/comments_controller.rb:10: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (99.9ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2009-07-27 03:39:01) [POST]
+  Parameters: {"commit"=>"Enviar Comentario", "post_id"=>"1", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "comment"=>{"body"=>"ahora sale el ajax =OO\n"}}
+
+SyntaxError (/home/max/ror/blog/app/controllers/comments_controller.rb:10: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 03:44:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (1.6ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (6.2ms)
+  [4;36;1mComment Load (1.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+Rendered comments/_comment (10.0ms)
+Rendered comments/_comment (1.4ms)
+Rendered comments/_comment (1.7ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 138ms (View: 95, DB: 3) | 200 OK [http://localhost/posts/1]
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2009-07-27 03:45:01) [POST]
+  Parameters: {"commit"=>"Enviar Comentario", "post_id"=>"1", "authenticity_token"=>"z7l+gCdJaDe7KYAHylJj6qrcyxbux/ynwYC/v8IhmGw=", "comment"=>{"body"=>"ahora sale el ajax =OO\n"}}
+  [4;35;1mPost Load (1.6ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Create (1.0ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-27 07:45:01', 'ahora sale el ajax =OO
+', 1, '2009-07-27 07:45:01')[0m
+Rendering comments/create
+Rendered comments/_comment (12.9ms)
+Completed in 91ms (View: 24, DB: 3) | 200 OK [http://localhost/posts/1/comments]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-07-27 03:45:42) [GET]
+  [4;35;1mPost Load (1.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Rendered posts/_post (21.7ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 313ms (View: 33, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 03:50:25) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (5.9ms)
+  [4;35;1mComment Load (1.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+Rendered comments/_comment (18.4ms)
+Rendered comments/_comment (1.6ms)
+Rendered comments/_comment (1.4ms)
+Rendered comments/_comment (2.2ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 124ms (View: 90, DB: 2) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-07-27 03:57:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered posts/_post (17.4ms)
+  [4;35;1mComment Load (1.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+Rendered comments/_comment (20.8ms)
+Rendered comments/_comment (1.4ms)
+Rendered comments/_comment (1.4ms)
+Rendered comments/_comment (16.1ms)
+DEPRECATION WARNING: formatted_posts_path() has been deprecated. Please pass format to the standard posts_path method instead.. (called from _run_erb_app47views47layouts47posts46html46erb at /home/max/ror/blog/app/views/layouts/posts.html.erb:9)
+Completed in 181ms (View: 137, DB: 2) | 200 OK [http://localhost/posts/1]
