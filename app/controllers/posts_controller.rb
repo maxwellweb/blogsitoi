@@ -1,7 +1,8 @@
 class PostsController < ApplicationController
-  before_filter :authenticate, :except => [:index, :show]
-# GET /posts
+  # GET /posts
   # GET /posts.xml
+  layout 'layout'
+  before_filter :login_required, :except => [:index, :show]
   def index
     @posts = Post.all
 
@@ -26,6 +27,7 @@ class PostsController < ApplicationController
   # GET /posts/new
   # GET /posts/new.xml
   def new
+
     @post = Post.new
 
     respond_to do |format|

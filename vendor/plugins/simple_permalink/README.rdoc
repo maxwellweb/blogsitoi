@@ -1,0 +1,20 @@
+=SimplePermalink
+SimplePermalink is a simple way to create unique permalinks for your models.
+
+==Install
+	script/plugin install git://github.com/eparreno/simple_permalink.git
+	
+==Usage
+
+	class Post < ActiveRecord::Base
+		permalink :title
+	end
+
+==Notes
+If you want to customize the permalink creation rules, edit simple_permalink/lib/core_ext.rb
+
+==Contributors
+Lleïr Borràs
+
+==
+Copyright (c) 2009 Emili Parreño (www.eparreno.com), released under the MIT license

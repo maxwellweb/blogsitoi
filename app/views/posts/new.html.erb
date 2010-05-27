@@ -1,3 +1,11 @@
+<% if logged_in? %>
+     Bienvenid@ <%=h current_user.username %>
+	<%= link_to 'Nuevo post', new_post_path %>
+     <%= link_to "(Salir)", logout_path %>
+   <% else %>
+     <%= link_to "Registro", signup_path %> o
+     <%= link_to "Acceder", login_path %>.
+   <% end %>
 <h1>New post</h1>
 
 <% form_for(@post) do |f| %>
