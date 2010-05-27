@@ -12,3 +12,9 @@ regitro con recaptcha
 solo ejemplos 
 no layout
 
+== instalar
+
+instalar la base de datos
+
+#rake db:migrate 
+
